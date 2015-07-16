@@ -1,0 +1,24 @@
+- use a gui to comunicate with the simulator
+- config the design through gui
+
+- initial phase
+  - reset the dut
+  - initialize the dut through some script/txt files
+  - proceed to working phase
+- working phase
+  - send the traffic
+  - pull the interrupt
+  - pull the registers
+- reset phase
+  - reset the dut
+  - initialize the dut if necessary
+  - proceed to working phase
+- stop phase
+  - pull all the interrupt status
+  - pull all the statistics
+  
+- how to transmit the commond from GUI to TB?
+- how to transmit the packet from GUI to TB
+- how to constraint the packet rate?
+- impletement the packet generator in GUI or TB?
+  - if in TB, how to constraint the generator?
